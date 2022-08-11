@@ -39,3 +39,13 @@ form input, form textarea{
     font-size: 16px;
 }
 
+
+form button{
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
