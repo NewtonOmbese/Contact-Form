@@ -1,11 +1,11 @@
 function sendEmail(){
     Email.send({
-        Host : "smtp.yourisp.com",
-        Username : "username",
-        Password : "password",
-        To : 'them@website.com',
-        From : "you@isp.com",
-        Subject : "This is the subject",
+        Host : "smtp.gmail.com",
+        Username : "newtonombese1@gmail.com",
+        Password : 39305520,
+        To : 'newtonjillianjillo@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "New Contact Form",
         Body : "And this is the body"
     }).then(
       message => alert(message)
